@@ -57,7 +57,7 @@ class DeviceDialog : Dialog {
             val inflater = mContext
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE) as LayoutInflater
 
-            mDeviceDialog = DeviceDialog(mContext, R.style.MyDialog)
+            mDeviceDialog = DeviceDialog(mContext, R.style.MyDialog1)
 
             mDeviceDialog!!.setCanceledOnTouchOutside(true)
 
