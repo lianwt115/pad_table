@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">崇阳监控</string>
+    <string name="net_error">网络异常</string>
+    <string name="next">确定</string>
+    <string name="content_notempty">内容不能为空</string>
+    <string name="loading">请稍等</string>
+    <string name="exit_notice">再按一次退出</string>
+    <string name="login_text1">社会保障卡自助服务后台管理系统</string>
+    <string name="login_text2">用户名密码登录</string>
+    <string name="login_text3">请输入用户名</string>
+    <string name="login_text4">请输入密码</string>
+    <string name="login_text5">下次自动登录</string>
+    <string name="login_text6">登录</string>
+    <string name="login_text7">用户名或密码为空</string>
+    <string name="login_text8">用户名或密码错误</string>
+    <string name="login_text9">Copyright©2018  楚天龙实业有限公司版权所有</string>
+    <string name="main_text1">系统管理</string>
+    <string name="main_text2_1">数据统计</string>
+    <string name="main_text2_2">终端管理</string>
+    <string name="main_text3">确定要退出吗?</string>
+    <string name="main_text4">社会保障卡自助服务后台管理系统</string>
+    <string name="main_text5">缴费情况统计</string>
+    <string name="main_text6">缴费信息统计</string>
+    <string name="main_text7">采集情况统计</string>
+    <string name="main_text8">认证情况统计</string>
+    <string name="main_text9">发卡情况统计</string>
+    <string name="main_text10">打印情况统计</string>
+    <string name="main_text11">设备情况统计</string>
+    <string name="main_text12">设备地图分布</string>
+    <string name="paymentsituation_text1">区县</string>
+    <string name="paymentsituation_text2">年度</string>
+    <string name="paymentsituation_text3">查询</string>
+    <string name="paymentsituation_text4">缴费情况图</string>
+    <string name="paymentsituation_text5">缴费(单位万元)</string>
+    <string name="paymentsituation_text6">查询类型</string>
+    <string name="paymentsituation_text7">请输入查询内容</string>
+    <string name="paymentinfo_text1">导出</string>
+    <string name="paymentinfo_text2">终端类型</string>
+    <string name="paymentinfo_text3">开始日期晚于结束日期</string>
+    <string name="paymentinfo_text4">所属区域</string>
+    <string name="paymentinfo_text5">所属区县</string>
+    <string name="paymentinfo_text6">缴费统计</string>
+    <string name="paymentinfo_text7">排名</string>
+    <string name="paymentinfo_text8">网点</string>
+    <string name="paymentinfo_text9">金额</string>
+    <string name="paymentinfo_text10">笔数</string>
+    <string name="paymentinfo_text11">全区域</string>
+    <string name="paymentinfo_text12">打印统计</string>
+    <string name="paymentinfo_text13">份数</string>
+    <string name="collectsituation_text1">采集类型</string>
+    <string name="collectsituation_text2">采集渠道统计</string>
+    <string name="collectsituation_text3">认证类型</string>
+    <string name="collectsituation_text4">认证渠道统计</string>
+    <string name="givecard_text1">新制卡/补换卡</string>
+    <string name="givecard_text2">新制卡</string>
+    <string name="givecard_text3">补换卡</string>
+    <string name="givecard_text4">自助发卡</string>
+    <string name="givecard_text5">即时发卡</string>
+    <string name="givecard_text6">自助领卡</string>
+    <string name="givecard_text7">发卡数</string>
+    <string name="devicelist_text1">在线</string>
+    <string name="devicelist_text2">离线</string>
+    <string name="devicelist_text3">无符合条件数据</string>
+    <string name="devicelist_text4">故障</string>
+    <string name="devicelist_text5">请输入查询数据</string>
+    <string name="devicelist_text6">正常</string>
+
+
+
+
+
+</resources>

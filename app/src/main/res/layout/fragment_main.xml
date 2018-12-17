@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/main_bg1"
+        android:orientation="vertical"
+        tools:context=".activity.MainActivity">
+
+    <com.ctd.cymanage.widget.BarView
+            android:id="@+id/main_barview"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+        <com.google.android.material.tabs.TabLayout
+                android:background="@color/white"
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                app:tabBackground="@color/white"
+                app:tabTextColor="@color/main_text_color5"
+                app:tabSelectedTextColor="@color/colorAccent"
+                app:tabIndicatorColor="@color/colorAccent">
+        </com.google.android.material.tabs.TabLayout>
+
+    <View
+            android:background="@color/main_bg2"
+            android:layout_width="match_parent"
+            android:layout_height="1px"></View>
+    <com.ctd.cymanage.widget.MyViewPager
+            android:overScrollMode="never"
+            android:layout_weight="1"
+            android:id="@+id/vp_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+    </com.ctd.cymanage.widget.MyViewPager>
+
+
+    <RelativeLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+        <TextView
+                android:id="@+id/bottom_tv_1"
+                android:layout_marginLeft="100dp"
+                android:layout_centerVertical="true"
+                android:text="@string/main_text4"
+                android:textColor="@color/main_text_color4"
+                android:ellipsize="end"
+                android:lines="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <TextClock
+                android:layout_marginLeft="20dp"
+                android:layout_centerInParent="true"
+                android:id="@+id/textclock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/main_text_color4"
+                android:format24Hour="yyyy年MM月dd日 HH时mm分ss秒  EEEE"
+        />
+
+        <TextView
+                android:layout_marginRight="20dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/bottom_tv_2"
+                android:layout_marginLeft="220dp"
+                android:layout_centerVertical="true"
+                android:text="@string/login_text9"
+                android:textColor="@color/main_text_color4"
+                android:ellipsize="end"
+                android:lines="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#00A4F8</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="tips_color">#FE5852</color>
+    <color name="top_bg">#4BB2C7</color>
+    <color name="top_bg_left">#5BC2D7</color>
+    <color name="top_bg_right">#F69145</color>
+    <color name="bottom_bg">#A9D6F4</color>
+    <color name="notice_top_bg">#0DC6DC</color>
+    <color name="bt_bg1">#0DC6DC</color>
+    <color name="bt_bg2">#E77374</color>
+    <color name="bt_bg3">#23AF97</color>
+    <color name="bt_bg4">#F69888</color>
+    <color name="bt_bg5">#7589C4</color>
+    <color name="bt_bg6">#EA7274</color>
+    <color name="bt_bg7">#5BC2D8</color>
+    <color name="bt_bg8">#21B295</color>
+    <color name="bt_bg9">#99ee99</color>
+    <color name="province_line_border">#C7C7C7</color>
+
+
+
+    <color name="login_text_color1">#7AA5ED</color>
+    <color name="login_text_color2">#008CD5</color>
+    <color name="login_text_color3">#666666</color>
+    <color name="login_text_color4">#999999</color>
+    <color name="login_text_color5">#111111</color>
+    <color name="main_text_color1">#55ffffff</color>
+    <color name="main_text_color2">#88ffffff</color>
+    <color name="main_text_color3">#5CF4F2</color>
+    <color name="main_text_color4">#838383</color>
+    <color name="main_text_color5">#cdcdcd</color>
+    <color name="main_bg1">#EEF3FA</color>
+    <color name="main_bg2">#15000000</color>
+    <color name="selectbarview_color1">#827C7D</color>
+    <color name="paymentinfo_color1">#64CA4F</color>
+
+    <color name="chart_color1">#0167FF</color>
+
+</resources>

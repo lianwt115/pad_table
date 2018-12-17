@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140dp"
+    android:layout_height="140dp"
+    android:background="@drawable/bg_20dp_white"
+    >
+
+    <TextView
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="12sp"
+            android:text="沙坪镇(4)"
+            android:id="@+id/window_title"
+            android:textColor="@color/bt_bg4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+    />
+
+        <ImageView
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_below="@id/window_title"
+                android:id="@+id/window_img"
+                android:src="@mipmap/net_maker1"
+                android:layout_width="100dp"
+                android:layout_height="100dp"/>
+    <ImageView
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/close"
+                android:src="@mipmap/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+</RelativeLayout>

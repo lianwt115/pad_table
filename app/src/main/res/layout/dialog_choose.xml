@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+            android:background="@drawable/bg_20dp_0_top"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dip" >
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/dialog_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择省市"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        <View
+                android:layout_marginTop="4dp"
+                android:layout_below="@id/dialog_title"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="1px"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:background="@drawable/bg_20dp_0_bottom"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <com.ctd.choose.view.WheelView
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/wheelview_one"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+        </com.ctd.choose.view.WheelView>
+
+        <com.ctd.choose.view.WheelView
+            android:visibility="gone"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:id="@+id/wheelview_two"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+        </com.ctd.choose.view.WheelView>
+
+
+    </LinearLayout>
+
+</LinearLayout>

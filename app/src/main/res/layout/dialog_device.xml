@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/dialog_root_bg">
+
+    <LinearLayout
+            android:id="@+id/top_root"
+            android:background="@drawable/bg_20dp_0_top"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:lines="1"
+                android:ellipsize="end"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:text="设备详细情况"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/dialog_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        <View
+                android:id="@+id/line"
+                android:background="@color/white"
+                android:layout_width="match_parent"
+                android:layout_height="1px"></View>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+            android:background="@drawable/bg_20dp_0_bottom"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <tabledemo.ctl.com.from.core.SmartTable
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:padding="1dp"
+                android:id="@+id/mytable_table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

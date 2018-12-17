@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    tools:ignore="Overdraw">
+
+    <TextView
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_8dp_0_top"
+        android:id="@+id/tvContent_top"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="六月"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:ellipsize="end"
+        android:lines="1"
+         />
+    <TextView
+        android:layout_below="@id/tvContent_top"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_8dp_0_bottom"
+        android:id="@+id/tvContent_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="缴费: 20 万元"
+        android:textSize="12sp"
+        android:textColor="@color/chart_color1"
+        android:ellipsize="end"
+        android:lines="1"
+         />
+
+</RelativeLayout>

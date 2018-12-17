@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="20dp"
+    android:layout_height="36dp"
+    android:id="@+id/root_view"
+>
+
+    <View
+            android:id="@+id/line"
+            android:background="@color/main_bg1"
+            android:layout_width="match_parent"
+            android:layout_height="1px"/>
+
+    <LinearLayout
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/line"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:textSize="18sp"
+                android:textColor="@color/selectbarview_color1"
+                android:text="排名"
+                android:ellipsize="end"
+                android:layout_centerHorizontal="true"
+                android:lines="1"
+                android:id="@+id/tv_left"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:textSize="18sp"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/selectbarview_color1"
+                android:text="网点"
+                android:ellipsize="end"
+                android:layout_centerHorizontal="true"
+                android:lines="1"
+                android:id="@+id/tv_center"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        <TextView
+                android:textSize="18sp"
+                android:textColor="@color/selectbarview_color1"
+                android:text="金额"
+                android:ellipsize="end"
+                android:layout_centerHorizontal="true"
+                android:lines="1"
+                android:id="@+id/tv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

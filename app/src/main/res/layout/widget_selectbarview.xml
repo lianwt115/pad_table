@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    >
+
+    <TextView
+
+            android:textSize="22sp"
+            android:layout_marginLeft="6dp"
+            android:text="@string/paymentsituation_text1"
+            android:id="@+id/selectbarview_type"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/selectbarview_color1"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+    />
+
+    <RelativeLayout
+            android:id="@+id/select_root"
+            android:layout_margin="4dp"
+            android:background="@drawable/bg_12dp_0"
+            android:layout_toRightOf="@id/selectbarview_type"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        <TextView
+                android:textSize="18sp"
+                android:paddingLeft="30dp"
+                android:gravity="center_vertical"
+                android:id="@+id/selectbarview_content"
+                android:textColor="@color/selectbarview_color1"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        />
+
+        <ImageView
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@null"
+                android:src="@mipmap/bar_icon_detil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
